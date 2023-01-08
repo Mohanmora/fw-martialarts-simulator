@@ -1,0 +1,22 @@
+body {
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.v-center {
+    margin-top: 120px;
+    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+}
+
+#buttonContainer button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
